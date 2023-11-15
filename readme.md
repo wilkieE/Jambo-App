@@ -18,7 +18,7 @@ To get started with this project, do the following:
 1. Clone the repository: `git clone <repo_url>`
 2. Navigate into the directory: `cd <directory_name>`
 3. Install the dependencies: `npm install`
-4. Start the server: `npm start`
+4. Start the server: `npx expo start`
 
 ## Usage
 1. Sign up
