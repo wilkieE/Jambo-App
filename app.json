@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "bus-ticket-app",
+    "slug": "bus-ticket-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/busicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/bussplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6a3de8"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "6",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dadashvespek.busticketapp",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": 6,
+      "package": "com.dadashvespek.busticketapp"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#000000"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3fce77c1-8f1b-4f90-879c-6e905ef0320e"
+      }
+    },
+    "owner": "rtlug"
+  }
+}
